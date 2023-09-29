@@ -1,2 +1,5 @@
-# Splunking_101
-Utilizing Splunk to Query and Present Data
+# Splunking_101 🤿
+!
+
+## Introduction 
+In this project, I explore basic utilization of the Splunk 
