@@ -20,4 +20,5 @@ There are a large number of apps that can be created and used on Splunk. They ca
 The raw sample data used in this project was logs from a web server that splunk is also running on. After selecting the appropriate data (weblogs) from the file, I chose the proper source type, which is important for determining how Splunk formats the data during the indexing process. My source type was "Web" and then "access_combined" because I would be sifting through HTTP web server logs. It's important to note that the source type can be manually selected like in this project, or set to automatic. 
 
 ## Searching Raw Data with SPL
+----
 
