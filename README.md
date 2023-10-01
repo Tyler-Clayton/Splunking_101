@@ -21,14 +21,14 @@ There are a large number of apps that can be created and used on Splunk. They ca
 ![Data Source 3](https://i.imgur.com/KiI6zzO.jpg)
 ![Sourcetype Input](https://i.imgur.com/ao1WRGB.jpg)
 ![Sourcetype input 2](https://i.imgur.com/GKO9cx2.jpg)
-![sourcetype input review](https://imgur.com/eHegV3k.jpg)
+![sourcetype input review](https://i.imgur.com/eHegV3k.jpg)
 
 The raw sample data used in this project was logs from a web server that splunk is also running on. After selecting the appropriate data (weblogs) from the file, I chose the proper source type, which is important for determining how Splunk formats the data during the indexing process. My source type was "Web" and then "access_combined" because I would be sifting through HTTP web server logs. It's important to note that the source type can be manually selected like in this project, or set to automatic. 
 
 ## Searching for Events with SPL🔍
 ![Search1](https://i.imgur.com/pqjY1O0.jpg)
 ![Search2](https://i.imgur.com/DzmsnYk.jpg)
-![Search 3](https://i.mgur.com/X4QOcAD.jpg)
+![Search 3](https://i.imgur.com/X4QOcAD.jpg)
 ![Extracting fields](https://i.imgur.com/3zkrLdN.jpg)
 There are multiple parameters to use when searching, and certain items in the presented data can be extracted. After a particular item is extracted a specific log, such as the client browser or OS being used on the other end, it can be added to the fields section during the search. This allows you to easily select that information going forward. The time period of that data being reviewed can also be changed, which is helpful if you need to locate a specific issue, or if you need to monitor/measure results over time. 
 
@@ -37,6 +37,7 @@ There are multiple parameters to use when searching, and certain items in the pr
 ![Bar chart1](https://i.imgur.com/XnIXrF5.jpg)
 ![Last Search Map Visual](https://i.imgur.com/u4f8NAV.jpg)
 After I searched and located data, I could format it into a pattern, statistics or an easy to read visual such as a chart or graph. I could then take those visuals and create a dashboard. These dashboards provide an effective way to convey relevant information. With the customization and operability of the Splunk platform, the uses are infinite across multiple facets of information technology, information security, and business development/administration. 
-
-
+![Dash1](https://i.imgur.com/YPLqNsj.jpg)
+![Dash2](https://i.imgur.com/bwcyu81.jpg)
+![Dash3](https://i.imgur.com/3naesgy.jpg)
 
