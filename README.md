@@ -19,6 +19,12 @@ There are a large number of apps that can be created and used on Splunk. They ca
 ----Data Source 1-4 and source type inputs----
 The raw sample data used in this project was logs from a web server that splunk is also running on. After selecting the appropriate data (weblogs) from the file, I chose the proper source type, which is important for determining how Splunk formats the data during the indexing process. My source type was "Web" and then "access_combined" because I would be sifting through HTTP web server logs. It's important to note that the source type can be manually selected like in this project, or set to automatic. 
 
-## Searching Raw Data with SPL
+## Searching Raw Data with SPL🔍
 ----
+There are multiple parameters to use when searching, and certain items in the presented data can be extracted. After a particular item is extracted a specific log, such as the client browser or OS being used on the other end, it can be added to the fields section during the search. This allows you to easily select that information going forward. The time period of that data being reviewed can also be changed, which is helpful if you need to locate a specific issue, or if you need to monitor/measure results over time. 
+
+## The Dashboard📈
+
+
+
 
