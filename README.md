@@ -25,6 +25,9 @@ There are multiple parameters to use when searching, and certain items in the pr
 
 ## The Dashboard📈
 
+After I searched and located data, I could format it into a pattern, statistics or an easy to read visual such as a chart or graph. I could then take those visuals and create a dashboard. These dashboards provide an effective way to convey relevant information. With the customization and operability of the Splunk platform, the uses are infinite across multiple facets of information technology, information security, and business development/administration. 
+
+
 
 
 
