@@ -22,9 +22,10 @@ There are a large number of apps that can be created and used on Splunk. They ca
 ![Sourcetype Input](https://i.imgur.com/ao1WRGB.jpg)
 ![Sourcetype input 2](https://i.imgur.com/GKO9cx2.jpg)
 ![sourcetype input review](https://imgur.com/eHegV3k.jpg)
+
 The raw sample data used in this project was logs from a web server that splunk is also running on. After selecting the appropriate data (weblogs) from the file, I chose the proper source type, which is important for determining how Splunk formats the data during the indexing process. My source type was "Web" and then "access_combined" because I would be sifting through HTTP web server logs. It's important to note that the source type can be manually selected like in this project, or set to automatic. 
 
-## Searching Raw Data with SPL🔍
+## Searching for Events with SPL🔍
 ![Search1](https://i.imgur.com/pqjY1O0.jpg)
 ![Search2](https://i.imgur.com/DzmsnYk.jpg)
 ![Search 3](https://i.mgur.com/X4QOcAD.jpg)
